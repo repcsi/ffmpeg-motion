@@ -1,0 +1,6 @@
+video_directory: '/motion/'
+#video_directory: '/motion/testing/'
+filetype: '.mp4'
+streamtype: 'codec_name'
+stream_attribute: 'hevc'
+processes: 3
