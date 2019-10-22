@@ -78,3 +78,6 @@ if __name__ == '__main__':
 
     print("Elapsed Time: %s seconds" % round((time.time() - start), 4))
     print("DONE!")
+    
+    pool.terminate()
+    pool.join()
